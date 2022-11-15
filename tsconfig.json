@@ -22,6 +22,8 @@
       "@core/*": ["core/*"],
       "@core": ["core/index"],
       "@modules/*": ["modules/*"],
+      "@domain/*": ["domain/*"],
+      "@domain": ["domain/index"],
       "@routes": ["main/routes/index"],
       "@presentation/*": ["presentation/*"],
       "@presentation": ["presentation/index"],

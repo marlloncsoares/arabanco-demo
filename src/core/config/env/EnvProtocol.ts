@@ -1,11 +1,4 @@
-/// <reference types="vite/client" />
-
 export type DevelopmentModeType = "development" | "homolog" | "production";
-
-interface ImportMetaEnv {
+export interface Environment {
   readonly DEVELOPMENT_MODE: DevelopmentModeType;
-}
-
-interface ImportMeta {
-  readonly env: ImportMetaEnv;
 }
